@@ -6,7 +6,7 @@ From: boutiques/boutiques
   pip install simplejson jsonschema gitpython PyGithub
 
 %runscript
-  cd ./tools/python/
+  cd /usr/local/boutiques/tools/python/
   coverage run --source boutiques setup.py pytest
   coveralls
 
